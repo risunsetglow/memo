@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(255, 254, 192);
+}
+
+p{
+  font-size: 20px;
+}
+
+.outer{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.title{
+  text-align:center;
+  font-size: 48px;
+  /* color: orange; */
+}
+
+.title-a{
+  text-decoration: none;
+  color: orange;
+}
+
+/* ボーダー線 */
+hr{
+    border: 0;
+    border-bottom: 3px dashed #ccc;
+    background: #999;
+    margin-bottom: 50px;
+}
+
+form{
+  text-align: center;
+}
+
+textarea{
+  margin-bottom: 36px;
+}
+
+/* ボタン */
+.center{
+  text-align: center;
+}
+
+.button {
+  display       : inline-block;
+  margin-bottom: 50px;
+  text-decoration: none;
+  font-size     : 18pt;   
+  border        : 2px solid black;
+  border-radius: 5px;  
+  cursor        : pointer;     
+  padding       : 12px 12px;   
+  color         : black;     
+  line-height   : 1em;         
+}
+
+/* テーブル */
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete{
+  color: black;
+}
+
+button{
+  background-color: rgb(255, 254, 192);
+}
+
